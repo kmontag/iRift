@@ -18,8 +18,6 @@ Scripts` in your Live User Library. (If you don't know your User
   `iRift` as one of your control surfaces.
 - Make sure your iRig device is plugged in, and select the
   appropriate ports for the control surface input/output.
-- In the `MIDI Ports` section, make sure the iRig's input/output
-  have `Track` and `Remote` checked.
 
 ## Hardware setup
 
