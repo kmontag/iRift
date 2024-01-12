@@ -1,0 +1,6 @@
+/__pycache__/
+/__ext__/
+
+/.make.*
+
+/configuration_local.py
