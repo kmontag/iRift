@@ -79,8 +79,8 @@ pad:
 | 8           | (unchanged)                    |                            |
 
 If you have an I/O 49, you can also quickly set the DATA encoder
-behavior by pressing FAST FORWARD (i.e. ALT + STOP) followed by one of
-the pads.
+behavior by pressing :fast_forward: (i.e. `ALT` + `STOP`) followed by
+one of the pads.
 
 ### Pads
 
@@ -117,18 +117,18 @@ sync). Instead, the LEDs indicate the current encoder behavior:
 | Play LED :green_circle: | Record LED :red_circle: | Encoder 1-8 function                                                 |
 | ----------------------- | ----------------------- | -------------------------------------------------------------------- |
 | off                     | off                     | Device parameters                                                    |
-| on                      | off                     | Track volume                                                         |
-| on                      | on                      | Track panning                                                        |
-| off                     | on                      | Track sends (DATA encoder can be used to select the controlled send) |
+| ON                      | off                     | Track volume                                                         |
+| ON                      | ON                      | Track panning                                                        |
+| off                     | ON                      | Track sends (DATA encoder can be used to select the controlled send) |
 
 You'll probably want to mess around with the transport buttons a bit,
 to get a sense for how to navigate through these states with the
 onboard behavior:
 
-- STOP always turns both LEDs off.
-- PLAY turns on the Play LED **unless** the Record LED is already
+- `STOP` always turns both LEDs off.
+- `PLAY` turns on the Play LED **unless** the Record LED is already
   turned on, in which case it does nothing.
-- RECORD turns on the Record LED **unless** the Play LED is
+- `RECORD` turns on the Record LED **unless** the Play LED is
   already turned on, in which case it toggles the Record LED
   on/off state.
 
