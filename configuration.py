@@ -1,11 +1,11 @@
 # This file defines the configuration schema and defaults for the
 # control surface.
 #
-# To customize these settings, create a file called
-# `configuration_local.py` in this directory, and export a custom
-# `Configuration` instance named `configuration`, for example:
+# To customize these settings, create a file called `user.py` in this
+# directory, and export a custom `Configuration` instance named
+# `configuration`, for example:
 #
-#   # configuration_local.py
+#   # user.py
 #   from .configuration import Configuration
 #
 #   configuration = Configuration(
@@ -51,7 +51,7 @@ def get_configuration() -> Configuration:
     # Load a local configuration if possible, or fall back to the default.
     local_configuration: typing.Optional[Configuration] = None
     try:
-        from .configuration_local import (  # type: ignore
+        from .user import (  # type: ignore
             configuration as local_configuration,  # type: ignore
         )
 

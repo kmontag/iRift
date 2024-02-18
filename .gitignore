@@ -5,4 +5,5 @@
 
 /.make.*
 
-/configuration_local.py
+# Local configuration.
+/user.py

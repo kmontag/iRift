@@ -133,11 +133,11 @@ onboard behavior:
 ## Configuration
 
 You can configure some aspects of the control surface behavior by
-creating a file called `configuration_local.py` in this directory, and
+creating a file called `user.py` in this directory, and
 adding something like the following:
 
 ```python
-# configuration_local.py
+# user.py
 from .configuration import Configuration
 
 configuration = Configuration(
