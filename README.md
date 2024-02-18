@@ -37,13 +37,13 @@ recall. The available pad behaviors are:
 | --------------------------- | -------------------------------------------------------------------------------------------- |
 | GLO (unmodified F02 preset) | Notes/no special functionality                                                               |
 | 2                           | [Transport](#transport-pads)                                                                 |
-| 3                           | Mute tracks                                                                                  |
-| 4                           | Solo tracks                                                                                  |
-| 5                           | Arm tracks                                                                                   |
-| 6                           | Select tracks                                                                                |
-| 7                           | Stop track clips                                                                             |
-| 8                           | Drum pads                                                                                    |
-| 9                           | Launch clips                                                                                 |
+| 3                           | Drum pads                                                                                    |
+| 4                           | Launch clips                                                                                 |
+| 5                           | Select tracks                                                                                |
+| 6                           | Mute tracks                                                                                  |
+| 7                           | Solo tracks                                                                                  |
+| 8                           | Arm tracks                                                                                   |
+| 9                           | Stop track clips                                                                             |
 | 10                          | Set DATA encoder behavior ([also acessible](#data-encoder) via :fast_forward: on the I/O 49) |
 
 The most natural setup is to save presets for pad channels 2-9 as

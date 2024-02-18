@@ -24,13 +24,13 @@ class Configuration(typing.NamedTuple):
 
     # MIDI channels by pad function.
     transport_midi_channel: int = 1
-    mute_midi_channel: int = 2
-    solo_midi_channel: int = 3
-    arm_midi_channel: int = 4
-    track_select_midi_channel: int = 5
-    stop_track_clip_midi_channel: int = 6
-    drum_group_midi_channel: int = 7
-    clip_launch_midi_channel: int = 8
+    drum_group_midi_channel: int = 2
+    clip_launch_midi_channel: int = 3
+    track_select_midi_channel: int = 4
+    mute_midi_channel: int = 5
+    solo_midi_channel: int = 6
+    arm_midi_channel: int = 7
+    stop_track_clip_midi_channel: int = 8
     data_encoder_mode_midi_channel: int = 9
 
     # Encoder sensitivity factor. A larger value makes the encoders
